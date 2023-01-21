@@ -1,0 +1,11 @@
+Pasos para correr el proyecto
+
+1. El proyecto funciona con la version 6 de laravel, y con php 7.4
+2. Primero debemos importar la base de datos, la cual se encuantra dentro de la carpeta 'base de datos'
+3. Se debe migrar las tablas del proyecto con php artisan migrate
+4. Se deben correr los sedeers con php artisan db:seed
+5. se debe ejecutar el servidor con php artisan serve
+
+Dentro del portal se pueden relizar compras, claro que no se ha implementado aun un metodo de pago, solo se pueden realizar
+las funciones básicas de una tienda como agregar los productos al carrito de compras,
+editarlo o eliminarlo o en su defecto limpiar el carrito.
